@@ -3,7 +3,7 @@ name = "SigmaOS-timer2"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "timer2 component"
+description = "Timer timer compatibility layer for SigmaOS"
 upstream = []
 
 [contract]
