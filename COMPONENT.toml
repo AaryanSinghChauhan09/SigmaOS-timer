@@ -1,16 +1,16 @@
 [component]
-name = "SigmaOS-timer2"
+name = "SigmaOS-timer"
 tier = 2
 stability = "beta"
-language = "rust"
-description = "Timer timer compatibility layer for SigmaOS"
+language = "shell"
+description = "SigmaOS integration for GNOME Timer: package management, config deployment, and CLI helpers."
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["app-manager:timer"]
 depends_on = []
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+test_evidence = "test.sh: syntax + metadata + isolated-HOME lifecycle checks"
+next_mestone = "Per-app config polish"
