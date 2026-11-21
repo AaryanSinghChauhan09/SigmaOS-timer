@@ -4,6 +4,9 @@
 //! Real implementation: timers, events, validation, deterministic storage.
 //! Replaces the placeholder stub.
 
+/// Timer and alarm management module.
+pub mod sigmatimer;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
